@@ -1,0 +1,27 @@
+mark1_joint_publisher:
+  type: "joint_state_controller/JointStateController"
+  publish_rate: 100
+
+wheel_RF_controller:
+  type: velocity_controllers/JointVelocityController
+  joint: joint_5
+
+wheel_RM_controller:
+  type: velocity_controllers/JointVelocityController
+  joint: joint_6
+  
+wheel_RB_controller:
+  type: velocity_controllers/JointVelocityController
+  joint: joint_7
+
+wheel_LF_controller:
+  type: velocity_controllers/JointVelocityController
+  joint: joint_8
+
+wheel_LM_controller:
+  type: velocity_controllers/JointVelocityController
+  joint: joint_9
+
+wheel_LB_controller:
+  type: velocity_controllers/JointVelocityController
+  joint: joint_10
