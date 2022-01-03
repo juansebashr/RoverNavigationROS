@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 
-<!--Dumb comment-->
+<!--Another dumb comment-->
 <robot name="mark2" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
 <xacro:property name="camera_value" value="0.05"/> <!-- Size of square 'camera' box -->
